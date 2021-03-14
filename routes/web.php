@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\faqController;
+use App\Http\Controllers\serviceController;
+use App\Http\Controllers\visitorController;
+use App\Http\Controllers\promotionPieceController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +18,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/', [visitorController::class, 'Accueil']);
+Route::get('/details', [serviceController::class, 'Service']);
+Route::get('/faq', [faqController::class, 'Faq']);
+Route::get('/promotion_piece', [promotionPieceController::class, 'PromotionPiece']);
