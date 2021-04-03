@@ -24,7 +24,7 @@
 // refreshCountdown()
 // console.log(diff)
 
-var countDownDate = new Date("Mars 9, 2021 15:37:25").getTime();
+var countDownDate = new Date("Apr 3, 2021 15:37:25").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {

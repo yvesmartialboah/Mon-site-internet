@@ -5,7 +5,7 @@
 @section('content')
 
  <!-- ======= Header ======= -->
- <section id="testimonials" class="testimonials">
+ <section id="testimonials" class="testimonials mt-5">
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">
@@ -15,8 +15,7 @@
             <p class="text-white">Services</p>
           </div>
           <div class="col-md-3">
-            <a href="{{url('/')}}#contact" class="text-right text-lg-start btn-get-started " style="font-weight: 500;font-size: 13px;letter-spacing: 1px;display: inline-block;padding: 10px 30px;border-radius: 50px;transition: 0.5s;color: #fff;background: #F8941B;margin-left: 7%;">
-            Installer l'application
+            <p style="color: #F8941B">Batterie</p>
           </a>
           </div>
         </div>

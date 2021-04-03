@@ -14,8 +14,8 @@
   <link href="../assets_mob/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  {{-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> --}}
   <!-- Vendor CSS Files -->
   <link href="{{asset('../assets_mob/vendor/aos/aos.css')}}" rel="stylesheet">
   <link href="{{asset('../assets_mob/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -66,6 +66,31 @@
 {{--  --}}
 @yield('content')
 {{--  --}}
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container">
+
+    <!-- <div class="section-title" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Contact Us</p>
+    </div> -->
+
+    <div class="row">
+
+      <div class="col-lg-12" >
+        <div class="info text-center">
+          <h4 class="mb-3" style="font-size: 36px;color: #34495e;"> Télécharger l’application maintenant </h4>
+          <a href=""><img class="mb-3" data-aos="fade-right" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/google-play-fr_get.svg')}}" alt=""></a>
+          <a href=""><img class="mb-3" data-aos="fade-left" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/app-store-fr.svg')}}" alt=""></a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End Contact Section -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -146,5 +171,7 @@
   <!-- Template Main JS File -->
   <script src="{{asset('../assets_mob/js/main.js')}}"></script>
   <script src="{{asset('../assets_mob/js/countdown.js')}}"></script>
+
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="46035e99-4b4f-485a-a136-c366081da3c0";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </body>
 </html>
