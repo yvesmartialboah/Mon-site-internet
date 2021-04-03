@@ -9,7 +9,7 @@
 
  
  <!-- ======= F.A.Q Section ======= -->
- <section id="faq" class="faq section-bg">
+ <section id="faq" class="faq section-bg mt-5">
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">

@@ -11,7 +11,7 @@
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div class="typewriter1" data-aos="zoom-out">
             <h1 style="color: #F8941B;">Bienvenue sur Mobili</h1>
-            <h2 class="typewrite" data-period="500" data-type='[ "MOBILI, est une application mobile de dépannage.","MOBILI, est une application mobile de remorquage.","MOBILI, est une application de vente de pièces auto à la demande" ]'> </h2>
+            <h2 class="typewrite" data-period="500" data-type='[ "MOBILI est une application mobile de dépannage."]'> </h2>
             <div class="text-center text-lg-start">
               <a href=""><img class="mb-3" data-aos="fade-right" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/google-play-fr_get.svg')}}" alt=""></a>
               <a href=""><img class="mb-3" data-aos="fade-left" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/app-store-fr.svg')}}" alt=""></a>
@@ -94,85 +94,85 @@
           <div class="col-lg-3 col-md-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
               <i class="bx bxs-color-fill" style="color: #ffbb2c;"></i>
-              <h3><a href="{{url('/details')}}">Vidange</a></h3>
+              <h3><a href="{{url('/vidange')}}">Vidange</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <i class="bx bx-infinite" style="color: #5578ff;"></i>
-              <h3><a href="details-services.html">Revision</a></h3>
+              <h3><a href="{{url('/revision')}}">Revision</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
               <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-              <h3><a href="details-services.html">Pneumatique</a></h3>
+              <h3><a href="{{url('/pneumatique')}}">Pneumatique</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a href="details-services.html">Freinage</a></h3>
+              <h3><a href="{{url('/freinage')}}">Freinage</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
               <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3><a href="details-services.html">Climatisation</a></h3>
+              <h3><a href="{{url('/climatisation')}}">Climatisation</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <h3><a href="details-services.html">Batterie</a></h3>
+              <h3><a href="{{url('/batterie')}}">Batterie</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="350">
               <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-              <h3><a href="details-services.html">Visibilité</a></h3>
+              <h3><a href="{{url('/visibilite')}}">Visibilité</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
               <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-              <h3><a href="">Réparation pièces electriques</a></h3>
+              <h3><a href="{{url('/reparation_piece_electrique')}}">Réparation pièces electriques</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="450">
               <i class="ri-anchor-line" style="color: #b2904f;"></i>
-              <h3><a href="details-services.html">Echappement</a></h3>
+              <h3><a href="{{url('/echappement')}}">Echappement</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
               <i class="ri-disc-line" style="color: #b20969;"></i>
-              <h3><a href="details-services.html">Kit de distribution</a></h3>
+              <h3><a href="{{url('/kit_distribution')}}">Kit de distribution</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="550">
               <i class="ri-base-station-line" style="color: #ff5828;"></i>
-              <h3><a href="details-services.html">Suspension</a></h3>
+              <h3><a href="{{url('/suspension')}}">Suspension</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
               <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="details-services.html">Pré-controle technique</a></h3>
+              <h3><a href="{{url('/pre_control_technique')}}">Pré-controle technique</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
               <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="details-services.html">Mécanique</a></h3>
+              <h3><a href="{{url('/mecanique')}}">Mécanique</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
               <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="details-services.html">Par-brise</a></h3>
+              <h3><a href="{{url('/pare_brise')}}">Par-brise</a></h3>
             </div>
           </div>
         </div>
@@ -264,31 +264,6 @@
     </section>
     <!-- End Details Section -->
 
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <!-- <div class="section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
-        </div> -->
-
-        <div class="row">
-
-          <div class="col-lg-12" >
-            <div class="info text-center">
-              <h4 class="mb-3" style="font-size: 36px;color: #34495e;"> Télécharger l’application maintenant </h4>
-              <a href=""><img class="mb-3" data-aos="fade-right" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/google-play-fr_get.svg')}}" alt=""></a>
-              <a href=""><img class="mb-3" data-aos="fade-left" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/app-store-fr.svg')}}" alt=""></a>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Contact Section -->
 
   </main><!-- End #main -->
 @endsection
