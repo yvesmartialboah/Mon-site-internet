@@ -30,8 +30,9 @@
     <section class="inner-page">
       <div class="container">
         <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt="">
+          <div class="col-md-4 text-center" data-aos="fade-right">
+            {{-- <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt=""> --}}
+            <i class="bx bxs-color-fill" style="color: #ffbb2c; font-size:300px !important"></i>
           </div>
           <div class="col-md-8 pt-4" data-aos="fade-up">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>

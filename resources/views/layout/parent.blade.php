@@ -39,17 +39,17 @@
       <div class="logo">
         <!-- <h1><a href="index.html"><span>Mobili</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="{{url('/')}}"><img src="{{asset('../assets_mob/img/logo.png')}}" alt="" class="img-fluid"></a>
+        <a href="{{route('accueil')}}"><img src="{{asset('../assets_mob/img/logo.png')}}" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
           <!-- <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li> -->
-          <li><a class="nav-link lien scrollto" href="{{url('/')}}#hero">A propos de nous</a></li>
-          <li><a class="nav-link lien scrollto" href="{{url('/')}}#features">Services</a></li>
-          <li><a class="nav-link lien scrollto" href="{{url('/')}}#details">Fonctionalités</a></li>
-          <li><a class="nav-link lien scrollto" href="{{url('/promotion_piece')}}">Promotions pièce auto</a></li>
-          <li><a class="nav-link lien scrollto" href="{{url('/faq')}}">FAQ</a></li>
+          <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#hero">A propos de nous</a></li>
+          <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#features">Services</a></li>
+          <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#details">Fonctionalités</a></li>
+          <li><a class="nav-link lien scrollto" href="{{route('promotion')}}">Promotions pièce auto</a></li>
+          <li><a class="nav-link lien scrollto" href="{{route('faq')}}">FAQ</a></li>
           <li class="">
             <a href="#contact" class="nav-link nolien  text-lg-start btn-get-started " style="font-weight: 500;font-size: 13px;letter-spacing: 0px;display: inline-block;padding: 5px 10px;border-radius: 50px;transition: 0.5s;color: #fff;background: #F8941B;margin-left: 7%;">
               Installer l'application
@@ -100,7 +100,7 @@
 
           <div class="col-lg-5 col-md-6">
             <div class="footer-infoo">
-              <img src="{{asset('../assets_mob/img/logo.png')}}" class="mb-3 bg-light" alt="logo mobili">
+              <img src="{{asset('../assets_mob/img/logo.png')}}" class="mb-3 " alt="logo mobili">
               <p class="pb-3">MOBILI, est une application mobile de dépannage/remorquage/vente de pièces auto à la demande.
                 Elle met en relation des dépanneurs/remorqueurs et les usagers de la route suite à une panne, un
                 accident, ou simplement pour déplacer ou rapatrier son véhicule de tous genres.</p>
