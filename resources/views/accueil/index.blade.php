@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-          <img src="{{asset('assets_mob/img/hero-img.png')}}" class="img-fluid animated" alt="">
+          <img src="{{asset('assets_mob/img/devis-img.png')}}" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -94,85 +94,85 @@
           <div class="col-lg-3 col-md-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
               <i class="bx bxs-color-fill" style="color: #ffbb2c;"></i>
-              <h3><a href="{{url('/vidange')}}">Vidange</a></h3>
+              <h3><a href="{{route('vidange')}}">Vidange</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <i class="bx bx-infinite" style="color: #5578ff;"></i>
-              <h3><a href="{{url('/revision')}}">Revision</a></h3>
+              <h3><a href="{{route('revision')}}">Revision</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
               <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-              <h3><a href="{{url('/pneumatique')}}">Pneumatique</a></h3>
+              <h3><a href="{{route('pneumatique')}}">Pneumatique</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a href="{{url('/freinage')}}">Freinage</a></h3>
+              <h3><a href="{{route('freinage')}}">Freinage</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
               <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3><a href="{{url('/climatisation')}}">Climatisation</a></h3>
+              <h3><a href="{{route('climatisation')}}">Climatisation</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <h3><a href="{{url('/batterie')}}">Batterie</a></h3>
+              <h3><a href="{{route('batterie')}}">Batterie</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="350">
               <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-              <h3><a href="{{url('/visibilite')}}">Visibilité</a></h3>
+              <h3><a href="{{route('visibilite')}}">Visibilité</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
               <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-              <h3><a href="{{url('/reparation_piece_electrique')}}">Réparation pièces electriques</a></h3>
+              <h3><a href="{{route('reparation_piece_electrique')}}">Réparation pièces electriques</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="450">
               <i class="ri-anchor-line" style="color: #b2904f;"></i>
-              <h3><a href="{{url('/echappement')}}">Echappement</a></h3>
+              <h3><a href="{{route('echappement')}}">Echappement</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
               <i class="ri-disc-line" style="color: #b20969;"></i>
-              <h3><a href="{{url('/kit_distribution')}}">Kit de distribution</a></h3>
+              <h3><a href="{{route('kit_distribution')}}">Kit de distribution</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="550">
               <i class="ri-base-station-line" style="color: #ff5828;"></i>
-              <h3><a href="{{url('/suspension')}}">Suspension</a></h3>
+              <h3><a href="{{route('suspension')}}">Suspension</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
               <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="{{url('/pre_control_technique')}}">Pré-controle technique</a></h3>
+              <h3><a href="{{route('pre_control_technique')}}">Pré-controle technique</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
               <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="{{url('/mecanique')}}">Mécanique</a></h3>
+              <h3><a href="{{route('mecanique')}}">Mécanique</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
               <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="{{url('/pare_brise')}}">Par-brise</a></h3>
+              <h3><a href="{{route('pare_brise')}}">Par-brise</a></h3>
             </div>
           </div>
         </div>
@@ -192,7 +192,7 @@
   
         <div class="row content">
           <div class="col-md-4" data-aos="fade-right">
-            <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt="">
+            <img src="{{asset('assets_mob/img/depanage-img.png')}}" class="img-fluid" alt="">
           </div>
           <div class="col-md-8 pt-4" data-aos="fade-up">
             <h3>Dépanage automobilistes.</h3>
@@ -214,10 +214,10 @@
         </div>
 
         <div class="row content">
-          <div class="col-md-4 order-1 " data-aos="fade-left">
-            <img src="{{asset('assets_mob/img/details-2.png')}}" class="img-fluid" alt="">
+          <div class="col-md-5 order-1 " data-aos="fade-left">
+            <img src="{{asset('assets_mob/img/piece-img.png')}}" class="img-fluid" alt="">
           </div>
-          <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+          <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-up">
             <h3>Pièces auto</h3>
             <!-- <p class="font-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -235,11 +235,11 @@
           </div>
         </div>
 
-        <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="{{asset('assets_mob/img/details-3.png')}}" class="img-fluid" alt="">
+        <div class="row content mb-0">
+          <div class="col-md-5" data-aos="fade-right">
+            <img src="{{asset('assets_mob/img/devis-img.png')}}" class="img-fluid" alt="">
           </div>
-          <div class="col-md-8 pt-5" data-aos="fade-up">
+          <div class="col-md-7 pt-5" data-aos="fade-up">
             <h3>Devis en ligne</h3>
             <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
             <ul>

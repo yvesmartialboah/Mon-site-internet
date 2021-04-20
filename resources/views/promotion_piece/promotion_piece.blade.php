@@ -18,7 +18,7 @@
 
       <div class="row content">
         <div class="col-md-6" data-aos="fade-right">
-          <img src="{{asset('assets_mob/img/details-1.png')}}" class="" height="500" alt="">
+          <img src="{{asset('assets_mob/img/promotion.jpg')}}" class="" height="500" alt="">
         </div>
         <div class="col-md-6 pt-4" data-aos="fade-up">
           <h3>Description</h3>

@@ -15,7 +15,7 @@
             <p class="text-white">Services</p>
           </div>
           <div class="col-md-3">
-            <p style="color: #F8941B">Revision</p>
+            <p style="color: #5578ff">Revision</p>
           </a>
           </div>
         </div>
@@ -31,7 +31,8 @@
       <div class="container">
         <div class="row content">
           <div class="col-md-4" data-aos="fade-right">
-            <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt="">
+            {{-- <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt=""> --}}
+            <i class="bx bx-infinite" style="color: #5578ff; font-size:300px !important"></i>
           </div>
           <div class="col-md-8 pt-4" data-aos="fade-up">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
