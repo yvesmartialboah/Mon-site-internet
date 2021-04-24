@@ -81,8 +81,8 @@
       <div class="col-lg-12" >
         <div class="info text-center">
           <h4 class="mb-3" style="font-size: 36px;color: #34495e;"> Télécharger l’application maintenant </h4>
-          <a href=""><img class="mb-3" data-aos="fade-right" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/google-play-fr_get.svg')}}" alt=""></a>
-          <a href=""><img class="mb-3" data-aos="fade-left" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/app-store-fr.svg')}}" alt=""></a>
+          <a href=""><img class="mb-3 p-2" data-aos="fade-right" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/google-play-fr_get.svg')}}" alt=""></a>
+          <a href=""><img class="mb-3 p-2" data-aos="fade-left" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/app-store-fr.svg')}}" alt=""></a>
         </div>
 
       </div>

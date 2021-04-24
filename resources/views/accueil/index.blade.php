@@ -12,10 +12,17 @@
           <div class="typewriter1" data-aos="zoom-out">
             <h1 style="color: #F8941B;">Bienvenue sur Mobili</h1>
             <h2 class="typewrite" data-period="500" data-type='[ "MOBILI est une application mobile de dépannage."]'> </h2>
-            <div class="text-center text-lg-start">
-              <a href=""><img class="mb-3" data-aos="fade-right" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/google-play-fr_get.svg')}}" alt=""></a>
-              <a href=""><img class="mb-3" data-aos="fade-left" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/app-store-fr.svg')}}" alt=""></a>
-            </div>
+            <div class="row  justify-content-around pt-1 p-2">
+              <div class="d-sm-inline-flex flex-row bd-highlight">
+                  <div class="p-2 text-center bd-highlight">
+                    <a href=""><img class="mb-3" data-aos="fade-right" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/google-play-fr_get.svg')}}" alt=""></a>
+                  </div>
+                  <div class="p-2 text-center bd-highlight ml-3">
+                    <a href=""><img class="mb-3" data-aos="fade-left" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/app-store-fr.svg')}}" alt=""></a> 
+                  </div>
+                </div>
+          </div>
+
           </div>
         </div>
         <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
