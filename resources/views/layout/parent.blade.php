@@ -8,26 +8,26 @@
   <title>Mobili</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+  
   <!-- Favicons -->
-  <link href="../assets_mob/img/logo_2.png" rel="icon">
-  <link href="../assets_mob/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{asset('assets_mob/img/logo_2.png')}}" rel="icon">
+  <link href="{{asset('assets_mob/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   {{-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> --}}
   <!-- Vendor CSS Files -->
-  <link href="{{asset('../assets_mob/vendor/aos/aos.css')}}" rel="stylesheet">
-  <link href="{{asset('../assets_mob/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-  <link href="{{asset('../assets_mob/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
-  <link href="{{asset('../assets_mob/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
-  <link href="{{asset('../assets_mob/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-  <link href="{{asset('../assets_mob/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
-  <link href="{{asset('../assets_mob/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
-  <link href="{{asset('../assets_mob/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets_mob/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href="{{asset('assets_mob/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets_mob/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="{{asset('assets_mob/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets_mob/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets_mob/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets_mob/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
+  <link href="{{asset('assets_mob/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="{{asset('../assets_mob/css/style.css')}}" rel="stylesheet">
+  <link href="{{asset('assets_mob/css/style.css')}}" rel="stylesheet">
 
 </head>
 <body>
@@ -39,7 +39,7 @@
       <div class="logo">
         <!-- <h1><a href="index.html"><span>Mobili</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="{{route('accueil')}}"><img src="{{asset('../assets_mob/img/logo.png')}}" alt="" class="img-fluid"></a>
+        <a href="{{route('accueil')}}"><img src="{{asset('assets_mob/img/logo.png')}}" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -100,7 +100,7 @@
 
           <div class="col-lg-5 col-md-6">
             <div class="footer-infoo">
-              <img src="{{asset('../assets_mob/img/logo.png')}}" class="mb-3 " alt="logo mobili">
+              <img src="{{asset('assets_mob/img/logo.png')}}" class="mb-3 " alt="logo mobili">
               <p class="pb-3">MOBILI, est une application mobile de dépannage/remorquage/vente de pièces auto à la demande.
                 Elle met en relation des dépanneurs/remorqueurs et les usagers de la route suite à une panne, un
                 accident, ou simplement pour déplacer ou rapatrier son véhicule de tous genres.</p>
@@ -161,16 +161,16 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="{{asset('../assets_mob/vendor/aos/aos.js')}}"></script>
-  <script src="{{asset('../assets_mob/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-  <script src="{{asset('../assets_mob/vendor/glightbox/js/glightbox.min.js')}}"></script>
-  <script src="{{asset('../assets_mob/vendor/php-email-form/validate.js')}}"></script>
-  <script src="{{asset('../assets_mob/vendor/purecounter/purecounter.js')}}"></script>
-  <script src="{{asset('../assets_mob/vendor/swiper/swiper-bundle.min.js')}}"></script>
+  <script src="{{asset('assets_mob/vendor/aos/aos.js')}}"></script>
+  <script src="{{asset('assets_mob/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('assets_mob/vendor/glightbox/js/glightbox.min.js')}}"></script>
+  <script src="{{asset('assets_mob/vendor/php-email-form/validate.js')}}"></script>
+  <script src="{{asset('assets_mob/vendor/purecounter/purecounter.js')}}"></script>
+  <script src="{{asset('assets_mob/vendor/swiper/swiper-bundle.min.js')}}"></script>
 
   <!-- Template Main JS File -->
-  <script src="{{asset('../assets_mob/js/main.js')}}"></script>
-  <script src="{{asset('../assets_mob/js/countdown.js')}}"></script>
+  <script src="{{asset('assets_mob/js/main.js')}}"></script>
+  <script src="{{asset('assets_mob/js/countdown.js')}}"></script>
 
   <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="46035e99-4b4f-485a-a136-c366081da3c0";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </body>
