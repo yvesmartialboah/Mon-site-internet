@@ -48,10 +48,11 @@
           <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#hero">A propos de nous</a></li>
           <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#features">Services</a></li>
           <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#details">Fonctionalités</a></li>
-          <li><a class="nav-link lien scrollto" href="{{route('promotion')}}">Promotions pièce auto</a></li>
-          <li><a class="nav-link lien scrollto" href="{{route('faq')}}">FAQ</a></li>
+          <li><a class="nav-link lien scrollto {{ Request::is('promotion_piece') ? 'active' : '' }}" href="{{route('promotion')}}">Promotions pièce auto</a></li>
+          <li><a class="nav-link lien scrollto {{ Request::is('faq') ? 'active' : '' }}" href="{{route('faq')}}">FAQ</a></li>
+          <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#contact">Contactez-nous</a></li>
           <li class="">
-            <a href="#contact" class="nav-link nolien  text-lg-start btn-get-started " style="font-weight: 500;font-size: 13px;letter-spacing: 0px;display: inline-block;padding: 5px 10px;border-radius: 50px;transition: 0.5s;color: #fff;background: #F8941B;margin-left: 7%;">
+            <a href="#store" class="nav-link nolien  text-lg-start btn-get-started " style="font-weight: 500;font-size: 13px;letter-spacing: 0px;display: inline-block;padding: 5px 10px;border-radius: 50px;transition: 0.5s;color: #fff;background: #F8941B;margin-left: 7%;">
               Installer l'application
             </a>
           </li>
@@ -68,19 +69,14 @@
 {{--  --}}
 
 <!-- ======= Contact Section ======= -->
-<section id="contact" class="contact">
+<section id="store" class="contact">
   <div class="container">
-
-    <!-- <div class="section-title" data-aos="fade-up">
-      <h2>Contact</h2>
-      <p>Contact Us</p>
-    </div> -->
 
     <div class="row">
 
       <div class="col-lg-12" >
         <div class="info text-center">
-          <h4 class="mb-3" style="font-size: 36px;color: #34495e;"> Télécharger l’application maintenant </h4>
+          <h5 class="mb-3" style="font-size: 36px;color: #34495e;font-weight:bold;"> Télécharger l’application maintenant </h5>
           <a href=""><img class="mb-3 p-2" data-aos="fade-right" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/google-play-fr_get.svg')}}" alt=""></a>
           <a href=""><img class="mb-3 p-2" data-aos="fade-left" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/app-store-fr.svg')}}" alt=""></a>
         </div>
@@ -91,6 +87,75 @@
   </div>
 </section>
 <!-- End Contact Section -->
+
+{{--  --}}
+<section id="contact" class="contact">
+  <div class="container">
+
+    <div class="section-title" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Contactez-nous</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Lieu:</h4>
+            <p>A108 Adam Street, New York, NY 535022</p>
+          </div>
+
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>contact@mobili-ci.com</p>
+          </div>
+
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Tel:</h4>
+            <p>(+225) 0000000000</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subjet" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Envoyer le Message</button></div>
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+{{--  --}}
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">

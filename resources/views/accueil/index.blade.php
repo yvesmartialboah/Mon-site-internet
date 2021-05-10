@@ -62,25 +62,40 @@
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
             <h3>A propos de Mobili</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+            <p>
+              Mobili est la première plateforme de dépannage automobile qui vous connecte à un réseau de
+              dépanneurs professionnels qui fournissent l'assistance routière dont vous avez besoin, quand vous
+              en avez besoin et sans aucune prime payée à l'avance ni cotisation annuelle. Juste en quelques clics
+              sur votre smartphone.
+            </p>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon"><i class='bx bx-cog'></i></div>
-              <h4 class="title"><a href="">Dépanage automobilistes</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 class="title"><a href="">Dépanage automobile</a></h4>
+              <p class="description">Nous vous venons en aide partout. il suffit de vous localisez a travers l'application et un de nos mécaniciens professionnels le plus proche viendra vous dépanner.</p>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon"><i class="bx bx-wrench"></i></div>
               <h4 class="title"><a href="">Pièces auto</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <p class="description">Mobili vous livre les Pièces détachées auto d’origine surtout de qualité au plus bas prix du marché.</p>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon"><i class='bx bx-notepad'></i></div>
-              <h4 class="title"><a href="">Devis en ligne</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+              <h4 class="title"><a href="">Mobili coursier</a></h4>
+              <p class="description">Mobili vous fournir ses coursiers professionnels pour différentes courses urgentes.</p>
+              <ul class="description">
+                <li>Les visites techniques,</li> 
+                <li>les tâches personnelles,</li> 
+                <li>la réparation etc…</li> 
+              </ul>
             </div>
+            {{-- <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><i class='bx bx-notepad'></i></div>
+              <h4 class="title"><a href="">Devis en ligne</a></h4>
+              <p class="description">Obtenez votre devis de réparation en quelqu'un clics Chez nos Garages partenaires.</p>
+            </div> --}}
 
           </div>
         </div>
@@ -96,7 +111,13 @@
           <h2>Services</h2>
           <p>Pour répondre à toutes vos demandes</p>
         </div>
-
+        <div class="col-md-12 mb-4" data-aos="fade-up">
+          <h4 class="title text-center">UNE GAMME COMPLÈTE DE SERVICES D'ASSISTANCE ROUTIÈRE</h4>
+          <p class="text-justify text-center">
+            Avec Mobili vous pouvez demander, 24h/24 et 7j/7, via votre smartphone une assistance dépannage immédiate à nos professionnels locaux
+            Mobili couvre tous les domaines de l’entretien réparation suivants :
+          </p>
+        </div>
         <div class="row" data-aos="fade-left">
           <div class="col-lg-3 col-md-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
@@ -188,25 +209,96 @@
     </section><!-- End Features Section -->
 
 
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+        
+        <div class="section-title" data-aos="fade-up">
+          <h2>Fonctionalités : Mobili</h2>
+          <p>comment ça marche!</p>
+        </div>
+        
+        <div class="row" data-aos="fade-up">
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="count-box" data-aos="zoom-in" data-aos-delay="100">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="">Téléchargez l'application</span>
+              <p>Télécharger gratuitement l'application.</p> <br>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="count-box" data-aos="zoom-in" data-aos-delay="100">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="">Inscrivez-vous</span>
+              <p>Remplissez toutes les informations demandées.</p> <br>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box" data-aos="zoom-in" data-aos-delay="100">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="">Trouvez un dépanneur</span>
+              <p>Vous pouvez dès à présent commencer à contacter nos dépanneurs professionnels..</p>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="section-title mt-5" data-aos="fade-up">
+          <h2>Decouvrez les avantages</h2>
+          <p style="font-size: 26px;">Mobili, la nouvelle application mobile consacrée au dépannage automobile</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          
+          <div class="col-lg-6 col-md-6">
+            <div class="count-box" data-aos="zoom-in" data-aos-delay="100">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="">Géolocalisation</span>
+              <p>C'est pratique, rapide, et ça vous assure un dépannage où que vous soyez.</p> <br>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 mt-5 mt-md-0">
+            <div class="count-box" data-aos="zoom-in" data-aos-delay="100">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="">Gain de temps</span>
+              <p>Avec Mobili vous attendez en quelques minutes.</p> <br>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+    <!-- End Counts Section -->
     <!-- ======= Details Section ======= -->
     <section id="details" class="details">
       <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-            <h2>Fonctionalités</h2>
-            <p>comment ça marche!</p>
-          </div>
   
+          <div class="row content">
+            <div class="col-md-5 order-1 " data-aos="fade-left">
+              <img src="{{asset('assets_mob/img/piece-img.png')}}" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-up">
+              <h3>Pièces auto</h3>
+              <ul>
+                <li><i class="bi bi-check"></i> Remplir un Formulaire détaillé.</li>
+                <li><i class="bi bi-check"></i> Valider le prix.</li>
+                <li><i class="bi bi-check"></i> Livraison et garantie par un de nos mécaniciens professionnels.</li>
+              </ul>
+              
+            </div>
+          </div>
+
         <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
+          <div class="col-md-5" data-aos="fade-right">
             <img src="{{asset('assets_mob/img/depanage-img.png')}}" class="img-fluid" alt="">
           </div>
-          <div class="col-md-8 pt-4" data-aos="fade-up">
-            <h3>Dépanage automobilistes.</h3>
-            <!-- <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p> -->
+          <div class="col-md-7 pt-5" data-aos="fade-up">
+            <h3>Dépanage automobile.</h3>
             <ul>
               <li><i class="bi bi-check"></i> Télécharcher l'application.</li>
               <li><i class="bi bi-check"></i> Inscrivez-vous.</li>
@@ -214,35 +306,36 @@
               <li><i class="bi bi-check"></i> Mise en relation avec notre mécanicien professionnel le plus proche de vous.</li>
               <li><i class="bi bi-check"></i> Vous êtes dépanné.</li>
             </ul>
-            <!-- <p>
-              Voluptas nisi in quia excepturi nihil voluptas nam et ut. Expedita omnis eum consequatur non. Sed in asperiores aut repellendus. Error quisquam ab maiores. Quibusdam sit in officia
-            </p> -->
+            {{-- <ul>
+              <li><i class="bi bi-check"></i> Définir votre modèle de véhicule.</li>
+              <li><i class="bi bi-check"></i> Définir la réparation à faire.</li>
+              <li><i class="bi bi-check"></i> Valider.</li>
+              <li><i class="bi bi-check"></i> Localisez-vous.</li>
+              <li><i class="bi bi-check"></i> Choisissez nos garages partenaires.</li>
+              <li><i class="bi bi-check"></i> Obtenez votre devis de réparation auto.</li>
+              <li><i class="bi bi-check"></i> Prenez un rendez-vous/demandez un mecanicien professionnel à domicile.</li>
+            </ul> --}}
+           
           </div>
         </div>
-
-        <div class="row content">
-          <div class="col-md-5 order-1 " data-aos="fade-left">
-            <img src="{{asset('assets_mob/img/piece-img.png')}}" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-up">
-            <h3>Pièces auto</h3>
-            <!-- <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p> -->
-            <ul>
-              <li><i class="bi bi-check"></i> Ajouter la photo de la pièce que vous recherchez.</li>
-              <li><i class="bi bi-check"></i> Oubien commander vos pièces.</li>
-              <li><i class="bi bi-check"></i> Choisir sa panne.</li>
-              <li><i class="bi bi-check"></i> Faites vous livrer par un mecanicien professionnel.</li>
-            </ul>
-            <!-- <p>
-              Inventore id enim dolor dicta qui et magni molestiae. Mollitia optio officia illum ut cupiditate eos autem. Soluta dolorum repellendus repellat amet autem rerum illum in. Quibusdam occaecati est nisi esse. Saepe aut dignissimos distinctio id enim.
-            </p> -->
-          </div>
-        </div>
-
+  
         <div class="row content mb-0">
+          <div class="col-md-5" data-aos="fade-right">
+            <img src="{{asset('assets_mob/img/devis-img.png')}}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5" data-aos="fade-up">
+            <h3>Mobili coursier</h3>
+            
+            <ul>
+              <li><i class="bi bi-check"></i> Définir votre type de course.</li>
+              <li><i class="bi bi-check"></i> Localisez un de nos coursiers disponibles.</li>
+              <li><i class="bi bi-check"></i> Valider.</li>
+              <li><i class="bi bi-check"></i> Vous êtes dépanné.</li>
+            </ul>
+            
+          </div>
+        </div>
+        {{-- <div class="row content mb-0">
           <div class="col-md-5" data-aos="fade-right">
             <img src="{{asset('assets_mob/img/devis-img.png')}}" class="img-fluid" alt="">
           </div>
@@ -258,19 +351,13 @@
               <li><i class="bi bi-check"></i> Obtenez votre devis de réparation auto.</li>
               <li><i class="bi bi-check"></i> Prenez un rendez-vous/demandez un mecanicien professionnel à domicile.</li>
             </ul>
-            <!-- <p>
-              Qui consequatur temporibus. Enim et corporis sit sunt harum praesentium suscipit ut voluptatem. Et nihil magni debitis consequatur est.
-            </p>
-            <p>
-              Suscipit enim et. Ut optio esse quidem quam reiciendis esse odit excepturi. Vel dolores rerum soluta explicabo vel fugiat eum non.
-            </p> -->
+            
           </div>
-        </div>
-
+        </div> --}}
+  
       </div>
     </section>
     <!-- End Details Section -->
-
-
+    
   </main><!-- End #main -->
 @endsection
