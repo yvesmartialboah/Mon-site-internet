@@ -15,7 +15,7 @@
             <p class="text-white">Services</p>
           </div>
           <div class="col-md-3">
-            <p style="color: #F8941B">Suspension</p>
+            <p style="color: #ff5828">Suspension</p>
           </a>
           </div>
         </div>
@@ -31,7 +31,8 @@
       <div class="container">
         <div class="row content">
           <div class="col-md-4" data-aos="fade-right">
-            <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt="">
+            {{-- <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt=""> --}}
+            <i class='ri-anchor-line' style="color: #ff5828; font-size:70px !important"></i>
           </div>
           <div class="col-md-8 pt-4" data-aos="fade-up">
             <p class="font-italic">

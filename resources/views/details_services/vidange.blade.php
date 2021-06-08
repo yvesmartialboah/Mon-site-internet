@@ -30,15 +30,26 @@
     <section class="inner-page">
       <div class="container">
         <div class="row content">
-          <div class="col-md-4 text-center" data-aos="fade-right">
-            {{-- <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt=""> --}}
+          <div class="d-flex justify-content-center">
+            <div class="p-2 flex-fill bd-highlight">
+              <i class="bx bxs-color-fill" style="color: #ffbb2c; font-size:70px !important"></i>
+            </div>
+            <div class="p-2 flex-fill bd-highlight">
+              <p class="font-italic">
+                Les lubrifiants, garants d’un fonctionnement moteur optimal
+              </p>
+            </div>
+            {{-- <div class="p-2 flex-fill bd-highlight">Flex item</div> --}}
+          </div>
+          {{-- <div class="col-md-4 text-center" data-aos="fade-right">
+            <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt="">
             <i class="bx bxs-color-fill" style="color: #ffbb2c; font-size:300px !important"></i>
           </div>
           <div class="col-md-8 pt-4" data-aos="fade-up">
             <p class="font-italic">
               Les lubrifiants, garants d’un fonctionnement moteur optimal
             </p>
-          </div>
+          </div> --}}
         </div>
       </div>
     </section>
