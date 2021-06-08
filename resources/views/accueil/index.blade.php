@@ -139,7 +139,7 @@
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+              <i class='bx bx-stop-circle' style="color: #e361ff;"></i>
               <h3><a href="{{route('freinage')}}">Freinage</a></h3>
             </div>
           </div>
@@ -151,7 +151,7 @@
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+              <i class='bx bxs-car-battery' style="color: #ffa76e;"></i>
               <h3><a href="{{route('batterie')}}">Batterie</a></h3>
             </div>
           </div>
@@ -163,7 +163,7 @@
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-              <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+              <i class='bx bx-wrench' style="color: #4233ff;"></i>
               <h3><a href="{{route('reparation_piece_electrique')}}">Réparation pièces electriques</a></h3>
             </div>
           </div>
@@ -175,31 +175,31 @@
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
-              <i class="ri-disc-line" style="color: #b20969;"></i>
+              <i class='bx bx-shape-polygon' style="color: #b20969;"></i>
               <h3><a href="{{route('kit_distribution')}}">Kit de distribution</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="550">
-              <i class="ri-base-station-line" style="color: #ff5828;"></i>
+              <i class='ri-anchor-line' style="color: #ff5828;"></i>
               <h3><a href="{{route('suspension')}}">Suspension</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
-              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <i class="bx bx-bracket" style="color: #29cc61;"></i>
               <h3><a href="{{route('pre_control_technique')}}">Pré-controle technique</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
-              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <i class='bx bxs-car-mechanic' style="color: #29cc61;"></i>
               <h3><a href="{{route('mecanique')}}">Mécanique</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
-              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <i class="bx bx-window" style="color: #29cc61;"></i>
               <h3><a href="{{route('pare_brise')}}">Par-brise</a></h3>
             </div>
           </div>

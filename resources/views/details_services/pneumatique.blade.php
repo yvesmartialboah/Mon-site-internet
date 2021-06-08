@@ -30,16 +30,31 @@
     <section class="inner-page">
       <div class="container">
         <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt="">
+          <div class="d-flex justify-content-center">
+            <div class="p-2 flex-fill bd-highlight">
+              <i class="ri-calendar-todo-line" style="color: #e80368; font-size:70px !important"></i>
+            </div>
+            <div class="p-2 flex-fill bd-highlight">
+              <p class="font-italic">
+                Pneumatiques : le lien essentiel à ne pas négliger
+                Le réseau Mobili propose à ses clients des pneumatiques de grandes marques, Hankook, Goodyear / Dunlop,
+                Michelin, Continental, Bridgestone, Firestone, Kleber etc....
+              </p>
+            </div>
+            {{-- <div class="p-2 flex-fill bd-highlight">Flex item</div> --}}
           </div>
-          <div class="col-md-8 pt-4" data-aos="fade-up">
+
+          {{-- <div class="col-md-4" data-aos="fade-right">
+            <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt="">
+            <i class="ri-calendar-todo-line" style="color: #e80368; font-size:300px !important"></i>
+          </div> --}}
+          {{-- <div class="col-md-8 pt-4" data-aos="fade-up">
             <p class="font-italic">
               Pneumatiques : le lien essentiel à ne pas négliger
               Le réseau Mobili propose à ses clients des pneumatiques de grandes marques, Hankook, Goodyear / Dunlop,
               Michelin, Continental, Bridgestone, Firestone, Kleber etc....
             </p>
-          </div>
+          </div> --}}
         </div>
       </div>
     </section>

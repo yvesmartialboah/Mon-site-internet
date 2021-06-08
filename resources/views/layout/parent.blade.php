@@ -46,7 +46,7 @@
         <ul>
           <!-- <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li> -->
           <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#hero">A propos de nous</a></li>
-          <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#features">Services</a></li>
+          <li><a class="nav-link lien scrollto {{ Request::is('pneumatique') || Request::is('vidange') || Request::is('revision') || Request::is('freinage') || Request::is('climatisation') || Request::is('batterie') || Request::is('visibilite') || Request::is('reparation_piece_electrique') || Request::is('echappement') || Request::is('kit_distribution') || Request::is('suspension') || Request::is('pre_control_technique') || Request::is('mecanique') || Request::is('pare_brise')  ? 'active' : '' }}"  href="{{route('accueil')}}#features">Services</a></li>
           <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#details">Fonctionalités</a></li>
           <li><a class="nav-link lien scrollto {{ Request::is('promotion_piece') ? 'active' : '' }}" href="{{route('promotion')}}">Promotions pièce auto</a></li>
           <li><a class="nav-link lien scrollto {{ Request::is('faq') ? 'active' : '' }}" href="{{route('faq')}}">FAQ</a></li>

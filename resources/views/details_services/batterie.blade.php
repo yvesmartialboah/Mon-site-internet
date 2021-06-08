@@ -15,7 +15,7 @@
             <p class="text-white">Services</p>
           </div>
           <div class="col-md-3">
-            <p style="color: #F8941B">Batterie</p>
+            <p style="color: #ffa76e">Batterie</p>
           </a>
           </div>
         </div>
@@ -30,14 +30,24 @@
     <section class="inner-page">
       <div class="container">
         <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
+          <div class="d-flex bd-highlight">
+            <div class="p-2 flex-fill bd-highlight">
+              <i class='bx bxs-car-battery' style="color: #ffa76e;font-size:70px !important"></i>
+            </div>
+            <div class="p-2 flex-fill bd-highlight">
+              <p class="font-italic">
+                Acteur de premier ordre, la batterie permet de démarrer le moteur, mais elle alimente également la totalité du circuit électrique de votre véhicule.
+              </p>
+            </div>
+          </div>
+          {{-- <div class="col-md-4" data-aos="fade-right">
             <img src="{{asset('assets_mob/img/details-1.png')}}" class="img-fluid" alt="">
           </div>
           <div class="col-md-8 pt-4" data-aos="fade-up">
             <p class="font-italic">
               Acteur de premier ordre, la batterie permet de démarrer le moteur, mais elle alimente également la totalité du circuit électrique de votre véhicule.
             </p>
-          </div>
+          </div> --}}
         </div>
       </div>
     </section>
