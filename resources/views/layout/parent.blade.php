@@ -125,7 +125,9 @@
 
       <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
 
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+        <form action="{{ route('contact') }}" method="post" role="form" class="php-email-form">
+          @csrf
+          @method('POST')
           <div class="row">
             <div class="col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" required>
@@ -143,7 +145,7 @@
           <div class="my-3">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
+            <div class="sent-message">Votre message a été envoyé. Merci!</div>
           </div>
           <div class="text-center"><button type="submit">Envoyer le Message</button></div>
         </form>
@@ -235,7 +237,7 @@
 
   <!-- Template Main JS File -->
   <script src="{{asset('assets_mob/js/main.js')}}"></script>
-  <script src="{{asset('assets_mob/js/countdown.js')}}"></script>
+  {{-- <script src="{{asset('assets_mob/js/countdown.js')}}"></script> --}}
 
   <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="46035e99-4b4f-485a-a136-c366081da3c0";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </body>

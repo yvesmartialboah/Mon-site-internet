@@ -325,12 +325,14 @@
           </div>
           <div class="col-md-7 pt-5" data-aos="fade-up">
             <h3>Mobili coursier</h3>
-            
+            <P>
+              Mobili met à votre disposition des chauffeurs coursier expérimentés et responsables dans la conduite pour 
+              toutes vos différentes courses personnelles ou d'entreprise.
+            </P>
             <ul>
-              <li><i class="bi bi-check"></i> Définir votre type de course.</li>
-              <li><i class="bi bi-check"></i> Localisez un de nos coursiers disponibles.</li>
-              <li><i class="bi bi-check"></i> Valider.</li>
-              <li><i class="bi bi-check"></i> Vous êtes dépanné.</li>
+              <li><i class="bi bi-check"></i> Visite technique.</li>
+              <li><i class="bi bi-check"></i> Dépôt du véhicule au garage.</li>
+              <li><i class="bi bi-check"></i> Courses administratives.</li>
             </ul>
             
           </div>
