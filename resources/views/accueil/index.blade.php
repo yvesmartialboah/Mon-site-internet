@@ -84,12 +84,12 @@
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon"><i class='bx bx-notepad'></i></div>
               <h4 class="title"><a href="">Mobili coursier</a></h4>
-              <p class="description">Mobili vous fournir ses coursiers professionnels pour différentes courses urgentes.</p>
-              <ul class="description">
+              <p class="description">Mobili met a votre disposition (particuliers/entreprises) ses chauffeurs-coursiers pour différentes courses</p>
+              {{-- <ul class="description">
                 <li>Les visites techniques,</li> 
                 <li>les tâches personnelles,</li> 
                 <li>la réparation etc…</li> 
-              </ul>
+              </ul> --}}
             </div>
             {{-- <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon"><i class='bx bx-notepad'></i></div>
@@ -321,7 +321,7 @@
   
         <div class="row content mb-0">
           <div class="col-md-5" data-aos="fade-right">
-            <img src="{{asset('assets_mob/img/devis-img.png')}}" class="img-fluid" alt="">
+            <img src="{{asset('assets_mob/img/course.png')}}" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-5" data-aos="fade-up">
             <h3>Mobili coursier</h3>
