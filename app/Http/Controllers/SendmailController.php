@@ -20,7 +20,8 @@ class SendmailController extends Controller
         ]);
 
         $to_name = 'TO_NAME';
-        $to_email = 'zukizuki161@gmail.com';
+        $to_email = 'contact@mobili.ci';
+        // $to_email = 'zukizuki161@gmail.com';
         $data = array(
             'name'=>$request->name, 
             "email" => $request->email , 
