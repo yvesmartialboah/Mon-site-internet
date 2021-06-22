@@ -104,19 +104,19 @@
           <div class="address">
             <i class="bi bi-geo-alt"></i>
             <h4>Lieu:</h4>
-            <p>A108 Adam Street, New York, NY 535022</p>
+            <p>Riviera Faya non loin de Playce</p>
           </div>
 
           <div class="email">
             <i class="bi bi-envelope"></i>
             <h4>Email:</h4>
-            <p>contact@mobili-ci.com</p>
+            <p>contact@mobili.ci</p>
           </div>
 
           <div class="phone">
             <i class="bi bi-phone"></i>
             <h4>Tel:</h4>
-            <p>(+225) 0000000000</p>
+            <p>(+225) 07 08 84 59 59</p>
           </div>
 
         </div>
@@ -188,9 +188,9 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Info</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">(+225) 0000000000</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">contact@mobili-ci.com</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">A108 Adam Street <br> NY 535022, USA<br><br></a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">(+225) 07 08 84 59 59</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">contact@mobili.ci</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Riviera Faya non loin de Playce<br><br></a></li>
             </ul>
           </div>
 

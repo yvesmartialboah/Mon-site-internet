@@ -37,4 +37,3 @@ Route::get('/suspension', [visitorController::class, 'Suspension'])->name('suspe
 Route::get('/pre_control_technique', [visitorController::class, 'PreControlTechnique'])->name('pre_control_technique');
 Route::get('/mecanique', [visitorController::class, 'Mecanique'])->name('mecanique');
 Route::get('/pare_brise', [visitorController::class, 'PareBrise'])->name('pare_brise');
-Route::post('/contact', [SendmailController::class, 'SendMail'])->name('contact');
