@@ -190,7 +190,8 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">(+225) 07 08 84 59 59</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">contact@mobili.ci</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Riviera Faya non loin de Playce<br><br></a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Riviera Faya non loin de Playce</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{url('/confidentialite')}}">Politique de confidentialité<br><br></a></li>
             </ul>
           </div>
 
