@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\faqController;
 use App\Http\Controllers\visitorController;
 use App\Http\Controllers\SendmailController;
+use App\Http\Controllers\politiqueConfidentialiteController;
 
 
 /*
@@ -22,6 +23,7 @@ use App\Http\Controllers\SendmailController;
 // });
 Route::get('/', [visitorController::class, 'Accueil'])->name('accueil');
 Route::get('/faq', [faqController::class, 'Faq'])->name('faq');
+Route::get('/confidentialite', [politiqueConfidentialiteController::class, 'PolitiqueConfidentialite'])->name('confidentialite');
 Route::get('/promotion_piece', [visitorController::class, 'PromotionPiece'])->name('promotion');
 Route::get('/vidange', [visitorController::class, 'Vidange'])->name('vidange');
 Route::get('/revision', [visitorController::class, 'Revision'])->name('revision');

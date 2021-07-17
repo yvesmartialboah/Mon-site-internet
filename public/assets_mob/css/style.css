@@ -1575,9 +1575,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #181819;
+  background: #ffffffd5;
   padding: 0 0 30px 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 14px;
 }
 
@@ -1588,7 +1588,7 @@ section {
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
   background: #010246;
-  color: #fff;
+  color: rgb(0, 0, 0);
   border-top: 4px solid #F8941B;
   text-align: center;
   padding: 30px 20px;
@@ -1612,7 +1612,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #fff;
+  color: rgb(0, 0, 0);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1625,14 +1625,14 @@ section {
 
 #footer .footer-top .social-links a:hover {
   background: #F8941B;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: rgb(0, 0, 0);
   position: relative;
   padding-bottom: 12px;
 }
@@ -1665,7 +1665,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1677,7 +1677,7 @@ section {
 
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: rgb(0, 0, 0);
   padding: 6px 10px 6px 15px;
   position: relative;
   border-radius: 50px;
