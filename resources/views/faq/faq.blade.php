@@ -13,8 +13,8 @@
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">
-        <h2>F.A.Q</h2>
-        <p>Questions fréquemment posées</p>
+        <h2>B.A.S</h2>
+        <p>Bon à Savoir</p>
       </div>
 
       <div class="faq-list">
