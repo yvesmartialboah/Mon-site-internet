@@ -49,13 +49,13 @@
           <li><a class="nav-link lien scrollto {{ Request::is('pneumatique') || Request::is('vidange') || Request::is('revision') || Request::is('freinage') || Request::is('climatisation') || Request::is('batterie') || Request::is('visibilite') || Request::is('reparation_piece_electrique') || Request::is('echappement') || Request::is('kit_distribution') || Request::is('suspension') || Request::is('pre_control_technique') || Request::is('mecanique') || Request::is('pare_brise')  ? 'active' : '' }}"  href="{{route('accueil')}}#features">Services</a></li>
           <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#details">Fonctionalités</a></li>
           <li><a class="nav-link lien scrollto {{ Request::is('promotion_piece') ? 'active' : '' }}" href="{{route('promotion')}}">Promotions pièce auto</a></li>
-          <li><a class="nav-link lien scrollto {{ Request::is('faq') ? 'active' : '' }}" href="{{route('faq')}}">FAQ</a></li>
+          <li><a class="nav-link lien scrollto {{ Request::is('faq') ? 'active' : '' }}" href="{{route('faq')}}">Bon à Savoir</a></li>
           <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#contact">Contactez-nous</a></li>
-          <li class="">
+          {{-- <li class="">
             <a href="#store" class="nav-link nolien  text-lg-start btn-get-started " style="font-weight: 500;font-size: 13px;letter-spacing: 0px;display: inline-block;padding: 5px 10px;border-radius: 50px;transition: 0.5s;color: #fff;background: #F8941B;margin-left: 7%;">
               Installer l'application
             </a>
-          </li>
+          </li> --}}
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -69,7 +69,7 @@
 {{--  --}}
 
 <!-- ======= Contact Section ======= -->
-<section id="store" class="contact">
+{{-- <section id="store" class="contact">
   <div class="container">
 
     <div class="row">
@@ -85,7 +85,7 @@
     </div>
 
   </div>
-</section>
+</section> --}}
 <!-- End Contact Section -->
 
 {{--  --}}
@@ -168,9 +168,10 @@
           <div class="col-lg-5 col-md-6">
             <div class="footer-infoo">
               <img src="{{asset('assets_mob/img/logo.png')}}" class="mb-3 " alt="logo mobili">
-              <p class="pb-3">MOBILI, est une application mobile de dépannage/remorquage/vente de pièces auto à la demande.
+              {{-- <p class="pb-3">MOBILI, est une application mobile de dépannage/remorquage/vente de pièces auto à la demande.
                 Elle met en relation des dépanneurs/remorqueurs et les usagers de la route suite à une panne, un
-                accident, ou simplement pour déplacer ou rapatrier son véhicule de tous genres.</p>
+                accident, ou simplement pour déplacer ou rapatrier son véhicule de tous genres.</p> --}}
+              <p class="pb-3">Mobili est un Réseau de mécaniciens professionnel aux services des automobilistes  en cas de panne ou d’assistance routière</p>
             </div>
           </div>
 
@@ -180,7 +181,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="{{url('/')}}#about">A propos de nous</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{url('/')}}#details">Fonctionalités</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{url('/promotion_piece')}}">Promotions pièces auto</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{url('/faq')}}">FAQ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{url('/faq')}}">Bon à Savoir</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{url('/')}}#contact">Contact</a></li>
             </ul>
           </div>
@@ -199,7 +200,7 @@
             <h4>Suivez-nous</h4>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.facebook.com/Mobili-Auto-Services-105229738618517/?ref=pages_you_manage" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
               <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>

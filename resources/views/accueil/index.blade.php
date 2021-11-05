@@ -13,14 +13,14 @@
             <h1 style="color: #F8941B;">Bienvenue sur Mobili</h1>
             <h2 class="typewrite" data-period="500" data-type='[ "MOBILI est une application mobile de dépannage."]'> </h2>
             <div class="row  justify-content-around pt-1 p-2">
-              <div class="d-sm-inline-flex flex-row bd-highlight">
+              {{-- <div class="d-sm-inline-flex flex-row bd-highlight">
                   <div class="p-2 text-center bd-highlight">
                     <a href=""><img class="mb-3" data-aos="fade-right" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/google-play-fr_get.svg')}}" alt=""></a>
                   </div>
                   <div class="p-2 text-center bd-highlight ml-3">
                     <a href=""><img class="mb-3" data-aos="fade-left" data-aos-delay="100" height="74" src="{{asset('assets_mob/img/app-store-fr.svg')}}" alt=""></a> 
                   </div>
-                </div>
+                </div> --}}
           </div>
 
           </div>
@@ -63,22 +63,25 @@
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
             <h3>A propos de Mobili</h3>
             <p>
-              Mobili est la première plateforme de dépannage automobile qui vous connecte à un réseau de
+              {{-- Mobili est la première plateforme de dépannage automobile qui vous connecte à un réseau de
               dépanneurs professionnels qui fournissent l'assistance routière dont vous avez besoin, quand vous
               en avez besoin et sans aucune prime payée à l'avance ni cotisation annuelle. Juste en quelques clics
-              sur votre smartphone.
+              sur votre smartphone. --}}
+              Mobili est un Réseau de mécaniciens professionnel aux services des automobilistes  en cas de panne ou d’assistance routière
             </p>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon"><i class='bx bx-cog'></i></div>
-              <h4 class="title"><a href="">Dépanage automobile</a></h4>
-              <p class="description">Nous vous venons en aide partout. il suffit de vous localisez a travers l'application et un de nos mécaniciens professionnels le plus proche viendra vous dépanner.</p>
+              <h4 class="title"><a href="">Dépanage automobile : besoin d’être dépanné ?</a></h4>
+              {{-- <p class="description">Nous vous venons en aide partout. il suffit de vous localisez a travers l'application et un de nos mécaniciens professionnels le plus proche viendra vous dépanner.</p> --}}
+              <p class="description">Nous vous envoyons un mécanicien pro rapidement pour vous dépanner.</p>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon"><i class="bx bx-wrench"></i></div>
               <h4 class="title"><a href="">Pièces auto</a></h4>
-              <p class="description">Mobili vous livre les Pièces détachées auto d’origine surtout de qualité au plus bas prix du marché.</p>
+              {{-- <p class="description">Mobili vous livre les Pièces détachées auto d’origine surtout de qualité au plus bas prix du marché.</p> --}}
+              <p class="description">Vente de pièces auto d’origine neuf et d’occasion en ligne </p>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
@@ -113,9 +116,12 @@
         </div>
         <div class="col-md-12 mb-4" data-aos="fade-up">
           <h4 class="title text-center">UNE GAMME COMPLÈTE DE SERVICES D'ASSISTANCE ROUTIÈRE</h4>
-          <p class="text-justify text-center">
+          {{-- <p class="text-justify text-center">
             Avec Mobili vous pouvez demander, 24h/24 et 7j/7, via votre smartphone une assistance dépannage immédiate à nos professionnels locaux
             Mobili couvre tous les domaines de l’entretien réparation suivants :
+          </p> --}}
+          <p class="text-justify text-center">
+            Une assistance routière pensée autrement avec des solutions adéquates pour chaque automobiliste Avec mobili, pas de temps à perdre, nous vous envoyons un mécanicien pro en 5min.
           </p>
         </div>
         <div class="row" data-aos="fade-left">
@@ -210,7 +216,7 @@
 
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+    {{-- <section id="counts" class="counts">
       <div class="container">
         
         <div class="section-title" data-aos="fade-up">
@@ -272,7 +278,7 @@
         </div>
         
       </div>
-    </section>
+    </section> --}}
     <!-- End Counts Section -->
     <!-- ======= Details Section ======= -->
     <section id="details" class="details">
