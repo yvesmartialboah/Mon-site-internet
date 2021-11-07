@@ -11,7 +11,7 @@
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div class="typewriter1" data-aos="zoom-out">
             <h1 style="color: #F8941B;">Bienvenue sur Mobili</h1>
-            <h2 class="typewrite" data-period="500" data-type='[ "MOBILI est une application mobile de dépannage."]'> </h2>
+            <h2 class="typewrite" data-period="500" data-type='[ "Mobili met en relation automobilistes en cas de panne aux mécaniciens."]'> </h2>
             <div class="row  justify-content-around pt-1 p-2">
               {{-- <div class="d-sm-inline-flex flex-row bd-highlight">
                   <div class="p-2 text-center bd-highlight">
@@ -26,7 +26,7 @@
           </div>
         </div>
         <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-          <img src="{{asset('assets_mob/img/devis-img.png')}}" class="img-fluid animated" alt="">
+          <img src="{{asset('assets_mob/img/service-img.png')}}" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -281,7 +281,7 @@
     </section> --}}
     <!-- End Counts Section -->
     <!-- ======= Details Section ======= -->
-    <section id="details" class="details">
+    {{-- <section id="details" class="details">
       <div class="container">
   
           <div class="row content">
@@ -312,15 +312,6 @@
               <li><i class="bi bi-check"></i> Mise en relation avec notre mécanicien professionnel le plus proche de vous.</li>
               <li><i class="bi bi-check"></i> Vous êtes dépanné.</li>
             </ul>
-            {{-- <ul>
-              <li><i class="bi bi-check"></i> Définir votre modèle de véhicule.</li>
-              <li><i class="bi bi-check"></i> Définir la réparation à faire.</li>
-              <li><i class="bi bi-check"></i> Valider.</li>
-              <li><i class="bi bi-check"></i> Localisez-vous.</li>
-              <li><i class="bi bi-check"></i> Choisissez nos garages partenaires.</li>
-              <li><i class="bi bi-check"></i> Obtenez votre devis de réparation auto.</li>
-              <li><i class="bi bi-check"></i> Prenez un rendez-vous/demandez un mecanicien professionnel à domicile.</li>
-            </ul> --}}
            
           </div>
         </div>
@@ -343,28 +334,9 @@
             
           </div>
         </div>
-        {{-- <div class="row content mb-0">
-          <div class="col-md-5" data-aos="fade-right">
-            <img src="{{asset('assets_mob/img/devis-img.png')}}" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 pt-5" data-aos="fade-up">
-            <h3>Devis en ligne</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
-            <ul>
-              <li><i class="bi bi-check"></i> Définir votre modèle de véhicule.</li>
-              <li><i class="bi bi-check"></i> Définir la réparation à faire.</li>
-              <li><i class="bi bi-check"></i> Valider.</li>
-              <li><i class="bi bi-check"></i> Localisez-vous.</li>
-              <li><i class="bi bi-check"></i> Choisissez nos garages partenaires.</li>
-              <li><i class="bi bi-check"></i> Obtenez votre devis de réparation auto.</li>
-              <li><i class="bi bi-check"></i> Prenez un rendez-vous/demandez un mecanicien professionnel à domicile.</li>
-            </ul>
-            
-          </div>
-        </div> --}}
   
       </div>
-    </section>
+    </section> --}}
     <!-- End Details Section -->
     
   </main><!-- End #main -->

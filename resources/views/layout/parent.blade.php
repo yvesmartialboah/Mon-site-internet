@@ -47,7 +47,7 @@
           <!-- <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li> -->
           <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#hero">A propos de nous</a></li>
           <li><a class="nav-link lien scrollto {{ Request::is('pneumatique') || Request::is('vidange') || Request::is('revision') || Request::is('freinage') || Request::is('climatisation') || Request::is('batterie') || Request::is('visibilite') || Request::is('reparation_piece_electrique') || Request::is('echappement') || Request::is('kit_distribution') || Request::is('suspension') || Request::is('pre_control_technique') || Request::is('mecanique') || Request::is('pare_brise')  ? 'active' : '' }}"  href="{{route('accueil')}}#features">Services</a></li>
-          <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#details">Fonctionalités</a></li>
+          {{-- <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#details">Fonctionalités</a></li> --}}
           <li><a class="nav-link lien scrollto {{ Request::is('promotion_piece') ? 'active' : '' }}" href="{{route('promotion')}}">Promotions pièce auto</a></li>
           <li><a class="nav-link lien scrollto {{ Request::is('faq') ? 'active' : '' }}" href="{{route('faq')}}">Bon à Savoir</a></li>
           <li><a class="nav-link lien scrollto" href="{{route('accueil')}}#contact">Contactez-nous</a></li>
@@ -116,7 +116,8 @@
           <div class="phone">
             <i class="bi bi-phone"></i>
             <h4>Tel:</h4>
-            <p>(+225) 07 08 84 59 59</p>
+            <p>(+225) 05 06 60 20 07</p>
+            <p>(+225) 07 57 26 26 26</p>
           </div>
 
         </div>
@@ -179,7 +180,7 @@
             <h4>Société</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="{{url('/')}}#about">A propos de nous</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{url('/')}}#details">Fonctionalités</a></li>
+              {{-- <li><i class="bx bx-chevron-right"></i> <a href="{{url('/')}}#details">Fonctionalités</a></li> --}}
               <li><i class="bx bx-chevron-right"></i> <a href="{{url('/promotion_piece')}}">Promotions pièces auto</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{url('/faq')}}">Bon à Savoir</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{url('/')}}#contact">Contact</a></li>
@@ -189,7 +190,7 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Info</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">(+225) 07 08 84 59 59</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">(+225) 05 06 60 20 07 <i class='bx bxl-whatsapp'></i> <br><br>(+225) 07 57 26 26 26</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">contact@mobili.ci</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Riviera Faya non loin de Playce</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{url('/confidentialite')}}">Politique de confidentialité<br><br></a></li>
@@ -199,11 +200,11 @@
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Suivez-nous</h4>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="https://www.facebook.com/Mobili-Auto-Services-105229738618517/?ref=pages_you_manage" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> --}}
+              <a href="https://www.facebook.com/Mobili-Auto-Services-105229738618517/?ref=pages_you_manage" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+              {{-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
               <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
             </div>
 
           </div>
