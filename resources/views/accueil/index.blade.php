@@ -11,7 +11,7 @@
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div class="typewriter1" data-aos="zoom-out">
             <h1 style="color: #F8941B;">Bienvenue sur Mobili</h1>
-            <h2 class="typewrite" data-period="500" data-type='[ "Mobili met en relation automobilistes en cas de panne aux mécaniciens."]'> </h2>
+            <h2 class="typewrite" data-period="500" data-type='[ "Mobili met en relation automobilistes en cas de panne avec des mécaniciens pro."]'> </h2>
             <div class="row  justify-content-around pt-1 p-2">
               {{-- <div class="d-sm-inline-flex flex-row bd-highlight">
                   <div class="p-2 text-center bd-highlight">
@@ -67,7 +67,7 @@
               dépanneurs professionnels qui fournissent l'assistance routière dont vous avez besoin, quand vous
               en avez besoin et sans aucune prime payée à l'avance ni cotisation annuelle. Juste en quelques clics
               sur votre smartphone. --}}
-              Mobili est un Réseau de mécaniciens professionnel aux services des automobilistes  en cas de panne ou d’assistance routière
+              Mobili est un Réseau de mécaniciens professionnel aux services des automobilistes  en cas de panne ou d’assistance routière.
             </p>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
@@ -81,13 +81,13 @@
               <div class="icon"><i class="bx bx-wrench"></i></div>
               <h4 class="title"><a href="">Pièces auto</a></h4>
               {{-- <p class="description">Mobili vous livre les Pièces détachées auto d’origine surtout de qualité au plus bas prix du marché.</p> --}}
-              <p class="description">Vente de pièces auto d’origine neuf et d’occasion en ligne </p>
+              <p class="description">Vente de pièces auto d’origine neuve et d’occasion en ligne.</p>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon"><i class='bx bx-notepad'></i></div>
               <h4 class="title"><a href="">Mobili coursier</a></h4>
-              <p class="description">Mobili met a votre disposition (particuliers/entreprises) ses chauffeurs-coursiers pour différentes courses</p>
+              <p class="description">Mobili met a votre disposition (particuliers/entreprises) ses chauffeurs-coursiers pour différentes courses.</p>
               {{-- <ul class="description">
                 <li>Les visites techniques,</li> 
                 <li>les tâches personnelles,</li> 
