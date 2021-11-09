@@ -23,11 +23,11 @@
         <div class="col-md-6 pt-4" data-aos="fade-up">
           <h3>Passer vos commandes en toute sécurité</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla quisquam exercitationem nihil praesentium neque quasi assumenda similique, deserunt, ab voluptatibus harum voluptatum dolorem quos iusto illum, dolor suscipit asperiores laborum.
+            Avec Mobili, commander et profiter  des promotions inédites de pièces auto d'origines, d’accessoires auto, de pneus voiture et d’outillage à tout temps.
           </p>
-          <a href="#" class="text-right btn-get-started mt-4" style="font-weight: 500;font-size: 15px;letter-spacing: 0px;display: inline-block;padding: 5px 10px;border-radius: 50px;transition: 0.5s;color: #fff;background: #F8941B;margin-left: 7%;">
+          {{-- <a href="#" class="text-right btn-get-started mt-4" style="font-weight: 500;font-size: 15px;letter-spacing: 0px;display: inline-block;padding: 5px 10px;border-radius: 50px;transition: 0.5s;color: #fff;background: #F8941B;margin-left: 7%;">
             Commander
-          </a>
+          </a> --}}
         </div>
         <div class="col-md-12">
         </div>
